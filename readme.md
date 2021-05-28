@@ -7,31 +7,8 @@
 
 Extends [Verify](https://github.com/VerifyTests/Verify) to allow verification of Web UIs using headless browsers.
 
-Support is available via a [Tidelift Subscription](https://tidelift.com/subscription/pkg/nuget-verify?utm_source=nuget-verify&utm_medium=referral&utm_campaign=enterprise).
-
 <a href='https://dotnetfoundation.org' alt='Part of the .NET Foundation'><img src='https://raw.githubusercontent.com/VerifyTests/Verify/master/docs/dotNetFoundation.svg' height='30px'></a><br>
 Part of the <a href='https://dotnetfoundation.org' alt=''>.NET Foundation</a>
-
-<!-- toc -->
-## Contents
-
-  * [Playwright Usage](#playwright-usage)
-    * [Enable](#enable)
-    * [Instantiate browser](#instantiate-browser)
-    * [Page test](#page-test)
-    * [Element test](#element-test)
-  * [Puppeteer Usage](#puppeteer-usage)
-    * [Enable](#enable-1)
-    * [Instantiate browser](#instantiate-browser-1)
-    * [Page test](#page-test-1)
-    * [Element test](#element-test-1)
-  * [Selenium Usage](#selenium-usage)
-    * [Enable](#enable-2)
-    * [Instantiate browser](#instantiate-browser-2)
-    * [Page test](#page-test-2)
-    * [Element test](#element-test-2)
-  * [OS specific rendering](#os-specific-rendering)
-  * [Security contact information](#security-contact-information)<!-- endToc -->
 
 
 ## Playwright Usage
@@ -388,10 +365,6 @@ With the state of the element being rendered as a verified files:
 
 The rendering can very slightly between different OS versions. This can make verification on different machines (eg CI) problematic. A [custom comparer](https://github.com/VerifyTests/Verify/blob/master/docs/comparer.md) can to mitigate this.
 
-
-## Security contact information
-
-To report a security vulnerability, use the [Tidelift security contact](https://tidelift.com/security). Tidelift will coordinate the fix and disclosure.
 
 
 ## Icon
